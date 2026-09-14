@@ -6,6 +6,10 @@ import { WhyChooseUs } from "../components/WhyChooseUs";
 import { TrustStats } from "../components/TrustStats";
 import { PageType } from "../types";
 import founderFirasatPortrait from "../assets/founder-photo-new.webp";
+import teamArmanAli from "../assets/team/arman-ali.jpg";
+import teamArbajSaifi from "../assets/team/arbaj-saifi.jpg";
+import teamMohdDanish from "../assets/team/mohd-danish.png";
+import teamMohasinAhmed from "../assets/team/mohasin-ahmed.png";
 import {
   Award,
   Sparkles,
@@ -268,25 +272,22 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenConsulta
                 role: "Strategic Growth Director & Performance Lead",
                 exp: "Performance Lead",
                 specialty: "Meta & Google Ads Funnels, Scaled ROAS, B2B Commercial Acquisition",
-                image:
-                  "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=75",
+                image: teamArmanAli,
               },
               {
                 name: "Arbaj Saifi",
                 role: "Lead Technical Architect & Engineering Head",
                 exp: "Engineering Head",
                 specialty: "React, Next.js, Headless Shopify, Core Web Vitals & Fast Architecture",
-                image:
-                  "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=75",
+                image: teamArbajSaifi,
               },
               {
-                name: "Moh. Danish",
+                name: "Mohd. Danish",
                 role: "Senior SEO Strategist & Search Intelligence",
                 exp: "Search Specialist",
                 specialty:
                   "Technical SEO Audits, High-Authority Outreach, GEO Ranking & Local 3-Pack",
-                image:
-                  "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=75",
+                image: teamMohdDanish,
               },
               {
                 name: "Mohasin Ahmed",
@@ -294,8 +295,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenConsulta
                 exp: "Creative Lead",
                 specialty:
                   "High-Conversion Creatives, Visual Identities, Motion Design & UI Systems",
-                image:
-                  "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=75",
+                image: teamMohasinAhmed,
               },
             ].map((member, idx) => (
               <div
